@@ -1,0 +1,440 @@
+2022-06-28 11:56:03
+Attaching to lamine_API_1, lamine_authentication_1, lamine_authorization_1, lamine_content_1
+[36mAPI_1             |[0m INFO:     Started server process [7]
+[36mAPI_1             |[0m INFO:     Waiting for application startup.
+[36mAPI_1             |[0m INFO:     Application startup complete.
+[36mAPI_1             |[0m INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[36mAPI_1             |[0m INFO:     10.5.0.3:54034 - "GET /permissions?username=alice&password=wonderland HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.3:54036 - "GET /permissions?username=bob&password=builder HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.3:54038 - "GET /permissions?username=clementine&password=mandarine HTTP/1.1" 403 Forbidden
+[36mAPI_1             |[0m INFO:     10.5.0.5:42404 - "GET /v1/sentiment?username=alice&password=wonderland&sentence=life+is+beautiful HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.5:42406 - "GET /v2/sentiment?username=alice&password=wonderland&sentence=life+is+beautiful HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.5:42408 - "GET /v1/sentiment?username=alice&password=wonderland&sentence=that+sucks HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.4:35710 - "GET /v1/sentiment?username=alice&password=wonderland&sentence=hello+world HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.5:42412 - "GET /v2/sentiment?username=alice&password=wonderland&sentence=that+sucks HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.4:35714 - "GET /v2/sentiment?username=alice&password=wonderland&sentence=hello+world HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.4:35716 - "GET /v1/sentiment?username=bob&password=builder&sentence=hello+world HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.4:35718 - "GET /v2/sentiment?username=bob&password=builder&sentence=hello+world HTTP/1.1" 403 Forbidden
+[36mAPI_1             |[0m INFO:     Started server process [7]
+[36mAPI_1             |[0m INFO:     Waiting for application startup.
+[36mAPI_1             |[0m INFO:     Application startup complete.
+[36mAPI_1             |[0m INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[36mAPI_1             |[0m INFO:     10.5.0.4:35720 - "GET /v1/sentiment?username=alice&password=wonderland&sentence=hello+world HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.4:35722 - "GET /v2/sentiment?username=alice&password=wonderland&sentence=hello+world HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.4:35724 - "GET /v1/sentiment?username=bob&password=builder&sentence=hello+world HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.4:35726 - "GET /v2/sentiment?username=bob&password=builder&sentence=hello+world HTTP/1.1" 403 Forbidden
+[36mAPI_1             |[0m INFO:     10.5.0.5:42428 - "GET /v1/sentiment?username=alice&password=wonderland&sentence=life+is+beautiful HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.5:42430 - "GET /v2/sentiment?username=alice&password=wonderland&sentence=life+is+beautiful HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.5:42432 - "GET /v1/sentiment?username=alice&password=wonderland&sentence=that+sucks HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.5:42434 - "GET /v2/sentiment?username=alice&password=wonderland&sentence=that+sucks HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.3:54072 - "GET /permissions?username=alice&password=wonderland HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.3:54074 - "GET /permissions?username=bob&password=builder HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.3:54076 - "GET /permissions?username=clementine&password=mandarine HTTP/1.1" 403 Forbidden
+[36mAPI_1             |[0m INFO:     Started server process [7]
+[36mAPI_1             |[0m INFO:     Waiting for application startup.
+[36mAPI_1             |[0m INFO:     Application startup complete.
+[36mAPI_1             |[0m INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[36mAPI_1             |[0m INFO:     10.5.0.5:42442 - "GET /v1/sentiment?username=alice&password=wonderland&sentence=life+is+beautiful HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.5:42444 - "GET /v2/sentiment?username=alice&password=wonderland&sentence=life+is+beautiful HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.5:42446 - "GET /v1/sentiment?username=alice&password=wonderland&sentence=that+sucks HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.5:42448 - "GET /v2/sentiment?username=alice&password=wonderland&sentence=that+sucks HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.4:35750 - "GET /v1/sentiment?username=alice&password=wonderland&sentence=hello+world HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.4:35752 - "GET /v2/sentiment?username=alice&password=wonderland&sentence=hello+world HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.4:35754 - "GET /v1/sentiment?username=bob&password=builder&sentence=hello+world HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.4:35756 - "GET /v2/sentiment?username=bob&password=builder&sentence=hello+world HTTP/1.1" 403 Forbidden
+[36mAPI_1             |[0m INFO:     10.5.0.3:54094 - "GET /permissions?username=alice&password=wonderland HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.3:54096 - "GET /permissions?username=bob&password=builder HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.3:54098 - "GET /permissions?username=clementine&password=mandarine HTTP/1.1" 403 Forbidden
+[36mAPI_1             |[0m INFO:     Started server process [8]
+[36mAPI_1             |[0m INFO:     Waiting for application startup.
+[36mAPI_1             |[0m INFO:     Application startup complete.
+[36mAPI_1             |[0m INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[36mAPI_1             |[0m INFO:     10.5.0.5:42464 - "GET /v1/sentiment?username=alice&password=wonderland&sentence=life+is+beautiful HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.5:42466 - "GET /v2/sentiment?username=alice&password=wonderland&sentence=life+is+beautiful HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.5:42468 - "GET /v1/sentiment?username=alice&password=wonderland&sentence=that+sucks HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.5:42470 - "GET /v2/sentiment?username=alice&password=wonderland&sentence=that+sucks HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.4:35774 - "GET /v1/sentiment?username=alice&password=wonderland&sentence=hello+world HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.3:54108 - "GET /permissions?username=alice&password=wonderland HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.4:35776 - "GET /v2/sentiment?username=alice&password=wonderland&sentence=hello+world HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.3:54114 - "GET /permissions?username=bob&password=builder HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.4:35780 - "GET /v1/sentiment?username=bob&password=builder&sentence=hello+world HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.3:54118 - "GET /permissions?username=clementine&password=mandarine HTTP/1.1" 403 Forbidden
+[36mAPI_1             |[0m INFO:     10.5.0.4:35784 - "GET /v2/sentiment?username=bob&password=builder&sentence=hello+world HTTP/1.1" 403 Forbidden
+[36mAPI_1             |[0m INFO:     Started server process [7]
+[36mAPI_1             |[0m INFO:     Waiting for application startup.
+[36mAPI_1             |[0m INFO:     Application startup complete.
+[36mAPI_1             |[0m INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[36mAPI_1             |[0m INFO:     10.5.0.5:42486 - "GET /v1/sentiment?username=alice&password=wonderland&sentence=life+is+beautiful HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.5:42488 - "GET /v2/sentiment?username=alice&password=wonderland&sentence=life+is+beautiful HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.5:42490 - "GET /v1/sentiment?username=alice&password=wonderland&sentence=that+sucks HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.5:42492 - "GET /v2/sentiment?username=alice&password=wonderland&sentence=that+sucks HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.4:35794 - "GET /v1/sentiment?username=alice&password=wonderland&sentence=hello+world HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.4:35796 - "GET /v2/sentiment?username=alice&password=wonderland&sentence=hello+world HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.3:54134 - "GET /permissions?username=alice&password=wonderland HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.4:35800 - "GET /v1/sentiment?username=bob&password=builder&sentence=hello+world HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.3:54138 - "GET /permissions?username=bob&password=builder HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.4:35804 - "GET /v2/sentiment?username=bob&password=builder&sentence=hello+world HTTP/1.1" 403 Forbidden
+[36mAPI_1             |[0m INFO:     10.5.0.3:54142 - "GET /permissions?username=clementine&password=mandarine HTTP/1.1" 403 Forbidden
+[36mAPI_1             |[0m INFO:     10.5.0.3:54144 - "GET /permissions?username=alice&password=wonderland HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.3:54146 - "GET /permissions?username=bob&password=builder HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.3:54148 - "GET /permissions?username=clementine&password=mandarine HTTP/1.1" 403 Forbidden
+[33mauthentication_1  |[0m 
+[33mauthentication_1  |[0m         ============================
+[33mauthentication_1  |[0m             Authentication test
+[33mauthentication_1  |[0m         ============================
+[33mauthentication_1  |[0m         
+[33mauthentication_1  |[0m         request done at "/permissions"
+[33mauthentication_1  |[0m         | username=alice
+[33mauthentication_1  |[0m         | password=wonderland
+[33mauthentication_1  |[0m         
+[33mauthentication_1  |[0m         expected result = 200
+[33mauthentication_1  |[0m         actual restult =200
+[33mauthentication_1  |[0m         
+[33mauthentication_1  |[0m         ==>  SUCCESS
+[33mauthentication_1  |[0m         
+[33mauthentication_1  |[0m         
+[33mauthentication_1  |[0m 
+[33mauthentication_1  |[0m         ============================
+[33mauthentication_1  |[0m             Authentication test
+[33mauthentication_1  |[0m         ============================
+[33mauthentication_1  |[0m         
+[33mauthentication_1  |[0m         request done at "/permissions"
+[33mauthentication_1  |[0m         | username=bob
+[33mauthentication_1  |[0m         | password=builder
+[33mauthentication_1  |[0m         
+[33mauthentication_1  |[0m         expected result = 200
+[33mauthentication_1  |[0m         actual restult =200
+[33mauthentication_1  |[0m         
+[33mauthentication_1  |[0m         ==>  SUCCESS
+[33mauthentication_1  |[0m         
+[33mauthentication_1  |[0m         
+[33mauthentication_1  |[0m 
+[33mauthentication_1  |[0m         ============================
+[33mauthentication_1  |[0m             Authentication test
+[33mauthentication_1  |[0m         ===========================
+[33mauthentication_1  |[0m         request done at "/permissions"
+[33mauthentication_1  |[0m         | username=clementine
+[33mauthentication_1  |[0m         | password=mandarine
+[33mauthentication_1  |[0m         expected result = 403
+[33mauthentication_1  |[0m         actual restult =403
+[33mauthentication_1  |[0m         ==>  FAILURE
+[33mauthentication_1  |[0m            
+[36mAPI_1             |[0m INFO:     10.5.0.5:42514 - "GET /v1/sentiment?username=alice&password=wonderland&sentence=life+is+beautiful HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.5:42516 - "GET /v2/sentiment?username=alice&password=wonderland&sentence=life+is+beautiful HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.5:42518 - "GET /v1/sentiment?username=alice&password=wonderland&sentence=that+sucks HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.5:42520 - "GET /v2/sentiment?username=alice&password=wonderland&sentence=that+sucks HTTP/1.1" 200 OK
+[35mcontent_1         |[0m 
+[35mcontent_1         |[0m         ============================
+[35mcontent_1         |[0m             Content test
+[35mcontent_1         |[0m         ============================
+[35mcontent_1         |[0m         request done at "/v1/sentiment"
+[35mcontent_1         |[0m         | username=alice
+[35mcontent_1         |[0m         | password=wonderland
+[35mcontent_1         |[0m         | sentence=life is beautiful
+[35mcontent_1         |[0m         expected result = +
+[35mcontent_1         |[0m         actual restult =0.5994
+[35mcontent_1         |[0m         ==>  POSITIVE
+[35mcontent_1         |[0m 
+[35mcontent_1         |[0m         
+[35mcontent_1         |[0m 
+[35mcontent_1         |[0m         ============================
+[35mcontent_1         |[0m             Content test
+[35mcontent_1         |[0m         ============================
+[35mcontent_1         |[0m 
+[35mcontent_1         |[0m         request done at "/v2/sentiment"
+[35mcontent_1         |[0m         | username=alice
+[35mcontent_1         |[0m         | password=wonderland
+[35mcontent_1         |[0m         | sentence=life is beautiful
+[35mcontent_1         |[0m 
+[35mcontent_1         |[0m         expected result = +
+[35mcontent_1         |[0m         actual restult =0.5994
+[35mcontent_1         |[0m 
+[35mcontent_1         |[0m         ==>  POSITIVE
+[35mcontent_1         |[0m 
+[35mcontent_1         |[0m         
+[35mcontent_1         |[0m 
+[35mcontent_1         |[0m         ============================
+[35mcontent_1         |[0m             Content test
+[35mcontent_1         |[0m         ============================
+[35mcontent_1         |[0m         request done at "/v1/sentiment"
+[35mcontent_1         |[0m         | username=alice
+[35mcontent_1         |[0m         | password=wonderland
+[35mcontent_1         |[0m         | sentence=that sucks
+[35mcontent_1         |[0m         expected result = -
+[35mcontent_1         |[0m         actual restult =-0.3612
+[35mcontent_1         |[0m         ==>  NEGATIVE
+[35mcontent_1         |[0m 
+[35mcontent_1         |[0m         
+[35mcontent_1         |[0m 
+[35mcontent_1         |[0m         ============================
+[35mcontent_1         |[0m             Content test
+[35mcontent_1         |[0m         ============================
+[35mcontent_1         |[0m 
+[35mcontent_1         |[0m         request done at "/v2/sentiment"
+[35mcontent_1         |[0m         | username=alice
+[35mcontent_1         |[0m         | password=wonderland
+[35mcontent_1         |[0m         | sentence=that sucks
+[35mcontent_1         |[0m 
+[35mcontent_1         |[0m         expected result = -
+[35mcontent_1         |[0m         actual restult =-0.3612
+[35mcontent_1         |[0m 
+[35mcontent_1         |[0m         ==>  NEGATIVE
+[35mcontent_1         |[0m 
+[35mcontent_1         |[0m         
+[36mAPI_1             |[0m INFO:     10.5.0.4:35822 - "GET /v1/sentiment?username=alice&password=wonderland&sentence=hello+world HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.4:35824 - "GET /v2/sentiment?username=alice&password=wonderland&sentence=hello+world HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.4:35826 - "GET /v1/sentiment?username=bob&password=builder&sentence=hello+world HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.4:35828 - "GET /v2/sentiment?username=bob&password=builder&sentence=hello+world HTTP/1.1" 403 Forbidden
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         ============================
+[32mauthorization_1   |[0m             Authorization test
+[32mauthorization_1   |[0m         ============================
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         request done at "/v1/sentiment"
+[32mauthorization_1   |[0m         | username=alice
+[32mauthorization_1   |[0m         | password=wonderland
+[32mauthorization_1   |[0m         | sentence=hello world
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         expected result = 200
+[32mauthorization_1   |[0m         actual restult =200
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         ==>  SUCCESS
+[32mauthorization_1   |[0m     
+[32mauthorization_1   |[0m     
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         ============================
+[32mauthorization_1   |[0m             Authorization test
+[32mauthorization_1   |[0m         ============================
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         request done at "/v2/sentiment"
+[32mauthorization_1   |[0m         | username=alice
+[32mauthorization_1   |[0m         | password=wonderland
+[32mauthorization_1   |[0m         | sentence=hello world
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         expected result = 200
+[32mauthorization_1   |[0m         actual restult =200
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         ==>  SUCCESS
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         ============================
+[32mauthorization_1   |[0m             Authorization test
+[32mauthorization_1   |[0m         ============================
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         request done at "/v1/sentiment"
+[32mauthorization_1   |[0m         | username=bob
+[32mauthorization_1   |[0m         | password=builder
+[32mauthorization_1   |[0m         | sentence=hello world
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         expected result = 200
+[32mauthorization_1   |[0m         actual restult =200
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         ==>  SUCCESS
+[32mauthorization_1   |[0m     
+[32mauthorization_1   |[0m     
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         ============================
+[32mauthorization_1   |[0m             Authorization test
+[32mauthorization_1   |[0m         ============================
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         request done at "/v2/sentiment"
+[32mauthorization_1   |[0m         | username=bob
+[32mauthorization_1   |[0m         | password=builder
+[32mauthorization_1   |[0m         | sentence=hello world
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         expected result = 403
+[32mauthorization_1   |[0m         actual restult =403
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         ==>  FAILURE
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         
+[33mlamine_authentication_1 exited with code 0
+[0m[35mlamine_content_1 exited with code 0
+[0m[32mlamine_authorization_1 exited with code 0
+[0mGracefully stopping... (press Ctrl+C again to force)
+2022-06-28 11:59:45
+Attaching to lamine_API_1, lamine_content_1, lamine_authorization_1, lamine_authentication_1
+[36mAPI_1             |[0m INFO:     Started server process [7]
+[36mAPI_1             |[0m INFO:     Waiting for application startup.
+[36mAPI_1             |[0m INFO:     Application startup complete.
+[36mAPI_1             |[0m INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[36mAPI_1             |[0m INFO:     10.5.0.4:35830 - "GET /v1/sentiment?username=alice&password=wonderland&sentence=hello+world HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.4:35832 - "GET /v2/sentiment?username=alice&password=wonderland&sentence=hello+world HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.3:54172 - "GET /permissions?username=alice&password=wonderland HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.5:42534 - "GET /v1/sentiment?username=alice&password=wonderland&sentence=life+is+beautiful HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.4:35838 - "GET /v1/sentiment?username=bob&password=builder&sentence=hello+world HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.5:42542 - "GET /v2/sentiment?username=alice&password=wonderland&sentence=life+is+beautiful HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.3:54176 - "GET /permissions?username=bob&password=builder HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.4:35844 - "GET /v2/sentiment?username=bob&password=builder&sentence=hello+world HTTP/1.1" 403 Forbidden
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         ============================
+[32mauthorization_1   |[0m             Authorization test
+[32mauthorization_1   |[0m         ============================
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         request done at "/v1/sentiment"
+[32mauthorization_1   |[0m         | username=alice
+[32mauthorization_1   |[0m         | password=wonderland
+[32mauthorization_1   |[0m         | sentence=hello world
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         expected result = 200
+[32mauthorization_1   |[0m         actual restult =200
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         ==>  SUCCESS
+[32mauthorization_1   |[0m     
+[32mauthorization_1   |[0m     
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         ============================
+[32mauthorization_1   |[0m             Authorization test
+[32mauthorization_1   |[0m         ============================
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         request done at "/v2/sentiment"
+[32mauthorization_1   |[0m         | username=alice
+[32mauthorization_1   |[0m         | password=wonderland
+[32mauthorization_1   |[0m         | sentence=hello world
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         expected result = 200
+[32mauthorization_1   |[0m         actual restult =200
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         ==>  SUCCESS
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         ============================
+[32mauthorization_1   |[0m             Authorization test
+[32mauthorization_1   |[0m         ============================
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         request done at "/v1/sentiment"
+[32mauthorization_1   |[0m         | username=bob
+[32mauthorization_1   |[0m         | password=builder
+[32mauthorization_1   |[0m         | sentence=hello world
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         expected result = 200
+[32mauthorization_1   |[0m         actual restult =200
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         ==>  SUCCESS
+[32mauthorization_1   |[0m     
+[32mauthorization_1   |[0m     
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         ============================
+[32mauthorization_1   |[0m             Authorization test
+[32mauthorization_1   |[0m         ============================
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         request done at "/v2/sentiment"
+[32mauthorization_1   |[0m         | username=bob
+[32mauthorization_1   |[0m         | password=builder
+[32mauthorization_1   |[0m         | sentence=hello world
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         expected result = 403
+[32mauthorization_1   |[0m         actual restult =403
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         ==>  FAILURE
+[32mauthorization_1   |[0m 
+[32mauthorization_1   |[0m         
+[36mAPI_1             |[0m INFO:     10.5.0.5:42546 - "GET /v1/sentiment?username=alice&password=wonderland&sentence=that+sucks HTTP/1.1" 200 OK
+[36mAPI_1             |[0m INFO:     10.5.0.3:54184 - "GET /permissions?username=clementine&password=mandarine HTTP/1.1" 403 Forbidden
+[33mauthentication_1  |[0m 
+[33mauthentication_1  |[0m         ============================
+[33mauthentication_1  |[0m             Authentication test
+[33mauthentication_1  |[0m         ============================
+[33mauthentication_1  |[0m         
+[33mauthentication_1  |[0m         request done at "/permissions"
+[33mauthentication_1  |[0m         | username=alice
+[33mauthentication_1  |[0m         | password=wonderland
+[33mauthentication_1  |[0m         
+[33mauthentication_1  |[0m         expected result = 200
+[33mauthentication_1  |[0m         actual restult =200
+[33mauthentication_1  |[0m         
+[33mauthentication_1  |[0m         ==>  SUCCESS
+[33mauthentication_1  |[0m         
+[33mauthentication_1  |[0m         
+[33mauthentication_1  |[0m 
+[33mauthentication_1  |[0m         ============================
+[33mauthentication_1  |[0m             Authentication test
+[33mauthentication_1  |[0m         ============================
+[33mauthentication_1  |[0m         
+[33mauthentication_1  |[0m         request done at "/permissions"
+[33mauthentication_1  |[0m         | username=bob
+[33mauthentication_1  |[0m         | password=builder
+[33mauthentication_1  |[0m         
+[33mauthentication_1  |[0m         expected result = 200
+[33mauthentication_1  |[0m         actual restult =200
+[33mauthentication_1  |[0m         
+[33mauthentication_1  |[0m         ==>  SUCCESS
+[33mauthentication_1  |[0m         
+[33mauthentication_1  |[0m         
+[33mauthentication_1  |[0m 
+[33mauthentication_1  |[0m         ============================
+[33mauthentication_1  |[0m             Authentication test
+[33mauthentication_1  |[0m         ===========================
+[33mauthentication_1  |[0m         request done at "/permissions"
+[33mauthentication_1  |[0m         | username=clementine
+[33mauthentication_1  |[0m         | password=mandarine
+[33mauthentication_1  |[0m         expected result = 403
+[33mauthentication_1  |[0m         actual restult =403
+[33mauthentication_1  |[0m         ==>  FAILURE
+[33mauthentication_1  |[0m            
+[36mAPI_1             |[0m INFO:     10.5.0.5:42550 - "GET /v2/sentiment?username=alice&password=wonderland&sentence=that+sucks HTTP/1.1" 200 OK
+[35mcontent_1         |[0m 
+[35mcontent_1         |[0m         ============================
+[35mcontent_1         |[0m             Content test
+[35mcontent_1         |[0m         ============================
+[35mcontent_1         |[0m         request done at "/v1/sentiment"
+[35mcontent_1         |[0m         | username=alice
+[35mcontent_1         |[0m         | password=wonderland
+[35mcontent_1         |[0m         | sentence=life is beautiful
+[35mcontent_1         |[0m         expected result = +
+[35mcontent_1         |[0m         actual restult =0.5994
+[35mcontent_1         |[0m         ==>  POSITIVE
+[35mcontent_1         |[0m 
+[35mcontent_1         |[0m         
+[35mcontent_1         |[0m 
+[35mcontent_1         |[0m         ============================
+[35mcontent_1         |[0m             Content test
+[35mcontent_1         |[0m         ============================
+[35mcontent_1         |[0m 
+[35mcontent_1         |[0m         request done at "/v2/sentiment"
+[35mcontent_1         |[0m         | username=alice
+[35mcontent_1         |[0m         | password=wonderland
+[35mcontent_1         |[0m         | sentence=life is beautiful
+[35mcontent_1         |[0m 
+[35mcontent_1         |[0m         expected result = +
+[35mcontent_1         |[0m         actual restult =0.5994
+[35mcontent_1         |[0m 
+[35mcontent_1         |[0m         ==>  POSITIVE
+[35mcontent_1         |[0m 
+[35mcontent_1         |[0m         
+[35mcontent_1         |[0m 
+[35mcontent_1         |[0m         ============================
+[35mcontent_1         |[0m             Content test
+[35mcontent_1         |[0m         ============================
+[35mcontent_1         |[0m         request done at "/v1/sentiment"
+[35mcontent_1         |[0m         | username=alice
+[35mcontent_1         |[0m         | password=wonderland
+[35mcontent_1         |[0m         | sentence=that sucks
+[35mcontent_1         |[0m         expected result = -
+[35mcontent_1         |[0m         actual restult =-0.3612
+[35mcontent_1         |[0m         ==>  NEGATIVE
+[35mcontent_1         |[0m 
+[35mcontent_1         |[0m         
+[35mcontent_1         |[0m 
+[35mcontent_1         |[0m         ============================
+[35mcontent_1         |[0m             Content test
+[35mcontent_1         |[0m         ============================
+[35mcontent_1         |[0m 
+[35mcontent_1         |[0m         request done at "/v2/sentiment"
+[35mcontent_1         |[0m         | username=alice
+[35mcontent_1         |[0m         | password=wonderland
+[35mcontent_1         |[0m         | sentence=that sucks
+[35mcontent_1         |[0m 
+[35mcontent_1         |[0m         expected result = -
+[35mcontent_1         |[0m         actual restult =-0.3612
+[35mcontent_1         |[0m 
+[35mcontent_1         |[0m         ==>  NEGATIVE
+[35mcontent_1         |[0m 
+[35mcontent_1         |[0m         
+[32mlamine_authorization_1 exited with code 0
+[0m[33mlamine_authentication_1 exited with code 0
+[0m[35mlamine_content_1 exited with code 0
+[0m[36mlamine_API_1 exited with code 137
+[0m
